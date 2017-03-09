@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00057"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00058"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00059"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00060"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00061"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00062"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00063"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00064"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00065"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00066"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00067"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00068"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00069"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00070"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00071"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00072"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00073"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00074"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00075"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00076"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00077"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00078"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00079"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00080"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00081"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00082"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00083"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00084"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00085"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00086"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00087"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00088"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00089"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo1_animatein_00090"/>
+
+</animation-list>

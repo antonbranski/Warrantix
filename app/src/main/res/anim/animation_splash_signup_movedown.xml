@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially"
+    android:interpolator="@android:anim/linear_interpolator">
+
+    <!--<set>-->
+        <!--<objectAnimator-->
+            <!--android:propertyName="y"-->
+            <!--android:duration="300"-->
+            <!--android:valueTo="300"-->
+            <!--android:valueType="intType"/>-->
+    <!--</set>-->
+
+    <scale
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="50"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.1"
+        android:toYScale="1.1" >
+    </scale>
+    <scale
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:startOffset="50"
+        android:duration="50"
+        android:fromXScale="1.1"
+        android:fromYScale="1.1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.0"
+        android:toYScale="1.0" >
+    </scale>
+    <scale
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:startOffset="100"
+        android:duration="100"
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.7"
+        android:toYScale="1.1" >
+    </scale>
+
+    <translate
+        android:toYDelta="30%p"
+        android:startOffset="200"
+        android:duration="200" />
+</set>

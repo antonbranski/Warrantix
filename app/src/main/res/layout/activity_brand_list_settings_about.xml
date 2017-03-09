@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/wx_primary_color"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp">
+        <ImageView
+            android:id="@+id/btnBack"
+            android:src="@drawable/splash_back"
+            android:scaleType="center"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp" />
+        <TextView
+            android:id="@+id/txtTitle"
+            android:visibility="visible"
+            android:text="ABOUT"
+            style="@style/BoldEdit"
+            android:textSize="@dimen/small_font_height"
+            android:layout_centerVertical="true"
+            android:textColor="@color/wx_accent_color"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <com.warrantix.main.customview.NonSwipeableViewPager
+        android:id="@+id/viewPager"
+        android:orientation="vertical"
+        android:layout_below="@id/titleLayout"
+        android:layout_marginBottom="@dimen/_70sdp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.warrantix.main.customview.NonSwipeableViewPager>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp">
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:ci_width="@dimen/_9sdp"
+            app:ci_height="@dimen/_9sdp"
+            app:ci_drawable="@drawable/tutorial_selected"
+            app:ci_drawable_unselected="@drawable/tutorial_non_selected"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"/>
+        <TextView
+            android:id="@+id/txtNext"
+            android:visibility="visible"
+            android:text="NEXT"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/wx_accent_color"
+            style="@style/BoldEdit"
+            android:textSize="@dimen/normal_font_height"
+            android:gravity="center"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_30sdp" />
+    </LinearLayout>
+
+</RelativeLayout>

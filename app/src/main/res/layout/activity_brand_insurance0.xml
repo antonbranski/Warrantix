@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wx_secondary_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/navigation_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12">
+
+            <ImageButton
+                android:id="@+id/brand_arrow"
+                style="@style/DefaultBackButtonStyle" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/control_space_margin_tiny"
+                android:paddingRight="@dimen/_8sdp"
+                android:gravity="center_vertical"
+                android:text="PROVIDERS"
+                android:textColor="@color/wx_tag_color"
+                android:textSize="@dimen/_13sdp" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"></LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/popularTXT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navigation_bar"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/control_space_margin_medium"
+        android:text="SELECT INSURANCE PROVIDER"
+        android:textColor="@color/wx_tag_color"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="gone" />
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/control_space_margin_small"
+        android:layout_marginBottom="@dimen/control_space_margin_small"
+        android:layout_below="@id/navigation_bar"
+        android:divider="@color/wx_secondary_color"
+        android:dividerHeight="@dimen/control_space_margin_small"></ListView>
+
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00057"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00058"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00059"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00060"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00061"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00062"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00063"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00064"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00065"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00066"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00067"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00068"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00069"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00070"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00071"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00072"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00073"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00074"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00075"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00076"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00077"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00078"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00079"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00080"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00081"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00082"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00083"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00084"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00085"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00086"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00087"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00088"/>
+
+    <item
+        android:duration="50"
+        android:drawable="@drawable/logo2_downscale_00089"/>
+
+</animation-list>

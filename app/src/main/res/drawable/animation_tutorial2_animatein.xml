@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00000"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00001"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00002"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00003"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00004"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00005"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00006"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00007"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00008"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00009"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00010"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00011"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00012"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00013"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00014"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00015"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00016"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00017"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00018"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00019"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00020"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial2_00021"/>
+
+
+</animation-list>

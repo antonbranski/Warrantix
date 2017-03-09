@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00000"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00001"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00002"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00003"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00004"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00005"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00006"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00007"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00008"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00009"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00010"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00011"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00012"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00013"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00014"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00015"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00016"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00017"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00018"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00019"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00020"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00021"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00022"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00023"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00024"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00025"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00026"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00027"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00028"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00029"/>
+
+    <item
+        android:duration="35"
+        android:drawable="@drawable/tutorial5_00030"/>
+
+
+</animation-list>

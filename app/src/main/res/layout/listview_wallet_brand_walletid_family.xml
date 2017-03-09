@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/wx_secondary_color"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/control_space_margin_small"
+        android:layout_marginRight="@dimen/control_space_margin_small"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/control_space_margin_medium"
+            android:id="@+id/walletID_lyout1"
+            android:orientation="vertical"
+            android:layout_below="@id/cardViewInProofPurchase"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <TextView
+                    android:id="@+id/familymember1"
+                    android:layout_width="wrap_content"
+                    android:text="@string/FAMILY_MEMBER"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="@dimen/control_space_margin_small"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/wx_tag_color"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtFamilyID"
+                    android:layout_width="wrap_content"
+                    android:text="1"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:textColor="@color/wx_tag_color"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_height="0dp">
+                <TextView
+                    android:id="@+id/customerid1"
+                    android:layout_width="wrap_content"
+                    android:text="@string/CUSTOMER_ID"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="@dimen/control_space_margin_small"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/wx_tag_color"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtCustomerID"
+                    android:layout_width="wrap_content"
+                    android:text="@string/XXXX1"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:textSize="@dimen/_11sdp"
+                    android:textColor="@color/wx_tag_color"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="@dimen/control_space_margin_small"
+            android:layout_below="@id/walletID_lyout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardView1InProofPurchase">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/phoneListLayout"
+                    android:orientation="vertical"
+                    android:background="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_below="@id/phoneListLayout"
+                    android:gravity="right"
+                    android:id="@+id/addDeviceLayout"
+                    android:layout_height="@dimen/_35sdp">
+                    <RelativeLayout
+                        android:id="@+id/btnAddDevice"
+                        android:clickable="true"
+                        android:layout_width="@dimen/_45sdp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_marginRight="@dimen/_15sdp"
+                            android:background="@drawable/setting"
+                            android:layout_gravity="center_vertical"
+                            android:layout_centerInParent="true"
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+</RelativeLayout>

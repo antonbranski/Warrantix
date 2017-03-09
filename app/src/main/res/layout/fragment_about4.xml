@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/wx_primary_color"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_270sdp">
+            <com.warrantix.main.customview.framevideoview.FrameVideoView
+                android:id="@+id/tutorial4"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtView1"
+                style="@style/BoldEdit"
+                android:text="BUY PRODUCTS AND SERVICES"
+                android:textSize="@dimen/_11sdp"
+                android:visibility="invisible"
+                android:textColor="@color/wx_accent_color"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtView2"
+                android:gravity="center"
+                android:text="AT ESHOPS OF FAVOURITE BRANDS"
+                android:textSize="@dimen/_11sdp"
+                style="@style/BoldEdit"
+                android:textColor="@color/wx_accent_color"
+                android:visibility="invisible"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtView3"
+                android:gravity="center"
+                android:text="INCLUDING USED PRODUCTS"
+                android:textSize="@dimen/_11sdp"
+                style="@style/BoldEdit"
+                android:visibility="invisible"
+                android:textColor="@color/wx_accent_color"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/control_space_margin_small"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtView4"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:text="Purchase Services like AMC"
+                android:textSize="@dimen/_11sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtView5"
+                android:text="Extended Warranty, Insurance..."
+                android:visibility="invisible"
+                android:textSize="@dimen/_11sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txtView6"
+                android:text="and even New &amp; Used Products"
+                android:visibility="invisible"
+                android:textSize="@dimen/_11sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

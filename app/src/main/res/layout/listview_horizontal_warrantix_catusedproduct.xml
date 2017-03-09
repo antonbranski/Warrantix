@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/bestElectronics"
+        android:layout_width="@dimen/_130sdp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/default_layout_selector"
+        android:orientation="vertical"
+        android:layout_height="@dimen/_120sdp">
+        <ImageView
+            android:id="@+id/product_img"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_75sdp"
+            android:src="@drawable/marketplace_usedproduct_appliance1"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:text="Lenovo Vibe K5"
+                    android:textColor="@color/wx_tag_color"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:text="Rs. 12,000"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:visibility="invisible"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/buy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

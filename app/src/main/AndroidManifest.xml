@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.warrantix.main">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <permission
+        android:name="com.example.gcm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!--permission to get phone number-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <!--permission to get email address-->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:name=".WarrantixApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait"
+            android:windowContentOverlay="@null"
+            android:windowDisablePreview="true"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:name="MainAlias"
+            android:enabled="true"
+            android:label="@string/app_name"
+            android:targetActivity=".activities.SplashActivity"
+            android:windowContentOverlay="@null"
+            android:windowDisablePreview="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowContentOverlay="@null"
+            android:windowDisablePreview="true"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.WalletMarketplaceSubCategory"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.WalletBrandProducts"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.WalletMarketplaceEshopProducts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandAccessoriesEshop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registration.AddProofOfPurchaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registration.ProductDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registration.ProofPurchaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registration.RequestDigitalWarrantyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registration.ScanCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registration.RegistrationHelpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registration.TapOnInvoiceDateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registration.TapOnDealerNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.registration.TapOnPriceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListSettingsAddCustomerID"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListSettingsAddDeviceID"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandAMC"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.WalletBrandAMC0"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandInsurance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.WalletBrandInsurance0"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandAlertNotification"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandFinance"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.WalletBrandFinance0"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandFinance1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandFinance2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandFinance3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandAddTechnician"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandSocial"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.product.BrandSocialCreateRank"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.product.BrandSocialCreateRefer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.product.BrandSocialCreateReveal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.product.BrandSocialCreateReview"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListTransferWarranty1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListTransferWarranty2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListUserAccout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListSettings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListSettingsWalletID"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListSettingsDefaultMarketplace"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListSettingsDefaultMarketplaceNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListSettingsSearchMarketplace"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListSettingsAbout"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListLocalDeals"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListManuals"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListOrder"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListRecalls"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.brandlist.WalletBrandListSettingsShoppingCart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandProductsDetail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.productdetail.ProductsDetailScheduleService"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.productdetail.ProductsDetailServiceContacts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.productdetail.ProductsDetailRebate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.productdetail.ProductsDetailRecode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.productdetail.ProductsDetailReturn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.productdetail.ProductsDetailRecycle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.social.WalletBrandSocialSelectContact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.social.WalletBrandSocialChatMessage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.productdetail.ProductDetailResell"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WalletBrandAMCMain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.MapsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.WalletMarketplaceAMC"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.WalletMarketplaceInsurance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.WalletMarketplaceFinance"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.WalletBrandFinanceCompany"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.PDFViewActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ab34cace371438e849569c1c054f1ef5decb5616" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDbFLUn1Ke23sLKwKHr_lVQj1_dxe-BuR0" />
+
+        <!-- [START gcm_receiver] -->
+        <service
+            android:name="com.warrantix.main.modules.gcm.WarrantixRegIntentService"
+            android:exported="false">
+            <!--<intent-filter>-->
+            <!--<action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
+            <!--</intent-filter>-->
+        </service>
+        <service
+            android:name="com.warrantix.main.modules.gcm.WarrantixIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.warrantix.main.modules.gcm.WarrantixListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.warrantix.main" />
+            </intent-filter>
+        </receiver>
+
+        <!--<service android:name=".modules.intercom.WarrantixIntercomService"-->
+        <!--android:process=":my_process" >-->
+        <!--<intent-filter>-->
+        <!--<action android:name="com.warrantix.main.modules.intercom.WarrantixIntercomService" />-->
+        <!--</intent-filter>-->
+        <!--</service>-->
+
+        <receiver android:name=".modules.intercom.WarrantixCommReceiver">
+            <intent-filter>
+                <action android:name="com.warrantix.framework.WALLET_EVENT" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.warrantix.main.service.OnSetupReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".modules.b2c.AlarmReceiver" />
+
+        <activity android:name=".activities.MediaWebviewActivity"></activity>
+
+    </application>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+</manifest>

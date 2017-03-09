@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/wx_secondary_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="0dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="12"
+            android:layout_height="0dp">
+            <ImageButton
+                android:id="@+id/brand_arrow"
+                style="@style/DefaultBackButtonStyle"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:text="PDF Viewer"
+                android:layout_marginLeft="@dimen/control_space_margin_tiny"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/wx_tag_color"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <com.joanzapata.pdfview.PDFView
+        android:layout_marginTop="@dimen/control_space_margin_small"
+        android:layout_marginBottom="@dimen/control_space_margin_small"
+        android:layout_marginLeft="@dimen/control_space_margin_small"
+        android:layout_marginRight="@dimen/control_space_margin_small"
+        android:id="@+id/pdfview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

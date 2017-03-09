@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\fragment_otpconfirmation.xml",
+        "source": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\bundles\\debug\\res\\layout-v21\\fragment_otpconfirmation.xml"
+    },
+    {
+        "merged": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\fragment_list.xml",
+        "source": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\bundles\\debug\\res\\layout-v21\\fragment_list.xml"
+    },
+    {
+        "merged": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\fragment_sign_up.xml",
+        "source": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\bundles\\debug\\res\\layout-v21\\fragment_sign_up.xml"
+    },
+    {
+        "merged": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\fragment_quick_pay.xml",
+        "source": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\bundles\\debug\\res\\layout-v21\\fragment_quick_pay.xml"
+    },
+    {
+        "merged": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\fragment_add_money.xml",
+        "source": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\bundles\\debug\\res\\layout-v21\\fragment_add_money.xml"
+    },
+    {
+        "merged": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v21\\fragment_wallet_sign_in.xml",
+        "source": "E:\\workingDirectory\\work\\android\\Warrantix\\LiJinBranchWalletRepo\\citruspay-sdk-ui\\build\\intermediates\\bundles\\debug\\res\\layout-v21\\fragment_wallet_sign_in.xml"
+    }
+]
